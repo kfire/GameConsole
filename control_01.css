@@ -1,0 +1,194 @@
+body{
+	background:black;
+	margin: 0;
+}
+
+ul{
+	display: none;
+}
+
+a{
+	display: none;
+}
+
+
+
+#hair_prev {
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	background: red;
+	top: 0px;
+	left: 0px;
+	z-index: 30;
+}
+
+#hair_next {
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	background: blue;
+	top: 0px;
+	left: 50px;
+	z-index: 30;
+}
+
+#eyeb_prev {
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	background: red;
+	top: 100px;
+	left: 0px;
+	z-index: 30;
+}
+
+#eyeb_next {
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	background: blue;
+	top: 100px;
+	left: 50px;
+	z-index: 30;
+}
+
+#eye_prev {
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	background: red;
+	top: 200px;
+	left: 0px;
+	z-index: 30;
+}
+
+#eye_next {
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	background: blue;
+	top: 200px;
+	left: 50px;
+	z-index: 30;
+}
+
+#nose_prev {
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	background: red;
+	top: 300px;
+	left: 0px;
+	z-index: 30;
+}
+
+#nose_next {
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	background: blue;
+	top: 300px;
+	left: 50px;
+	z-index: 30;
+}
+
+#mouth_prev {
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	background: red;
+	top: 400px;
+	left: 0px;
+	z-index: 30;
+}
+
+#mouth_next {
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	background: blue;
+	top: 400px;
+	left: 50px;
+	z-index: 30;
+}
+
+#top_prev {
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	background: red;
+	top: 500px;
+	left: 0px;
+	z-index: 30;
+}
+
+#top_next {
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	background: blue;
+	top: 500px;
+	left: 50px;
+	z-index: 30;
+}
+
+#pants_prev {
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	background: red;
+	top: 600px;
+	left: 0px;
+	z-index: 30;
+}
+
+#pants_next {
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	background: blue;
+	top: 600px;
+	left: 50px;
+	z-index: 30;
+}
+
+#foot_prev {
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	background: red;
+	top: 700px;
+	left: 0px;
+	z-index: 30;
+}
+
+#foot_next {
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	background: blue;
+	top: 700px;
+	left: 50px;
+	z-index: 30;
+}
+
+#armac_prev {
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	background: red;
+	top: 800px;
+	left: 0px;
+	z-index: 30;
+}
+
+#armac_next {
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	background: blue;
+	top: 800px;
+	left: 50px;
+	z-index: 30;
+}
