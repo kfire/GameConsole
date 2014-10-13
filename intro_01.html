@@ -37,7 +37,7 @@
       <img src="./img/eyeb_16.png"/>                 
     </div>
     <div id="slides_01">
-      <img src="./img/eye_01.gif"/>
+      <img src="./img/eye_01.png"/>
       <img src="./img/eye_02.png"/>
       <img src="./img/eye_03.png"/>
       <img src="./img/eye_04.png"/>
@@ -156,24 +156,21 @@
     window.onload = function() {
       var socket = io();
 
-      var slides_hear;
-      var hear_prev;
+      var slides_hair;
+      var hair_prev;
 
       socket.on('move', function(msg){
         io.emit('move', msg);
       });
 
-
       socket.on('move', function(msg){
        console.log('move: ' + msg);
-       if (msg === 'hear_prev') 
+       if (msg === 'hair_prev') 
        {
-         $('#slides_hear .slidesjs-previous').click();
+         $('#slides_hair .slidesjs-previous').click();
        }
       });
-
-
-
+    }
 
 </script>
 
