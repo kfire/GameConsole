@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="description" content="SlidesJS is a simple slideshow plugin for jQuery. Packed with a useful set of features to help novice and advanced developers alike create elegant and user-friendly slideshows.">
+  <meta name="author" content="Nathan Searles">
+  <meta name="viewport" content="width=device-width">
+  <link type="text/css" rel="stylesheet" href="intro_01.css"/>
+  <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/slidesjs/3.0/jquery.slides.min.js"></script>
+  <script src="intro_01.js"></script>
+  <script src="/socket.io/socket.io.js"></script>
+  <title>momot</title>
+</head>
+ <body>
+
+  <div id="hear_prev"></div>
+  <div id="hear_next"></div>
+
+  <div id="eyeb_prev"></div>
+  <div id="eyeb_next"></div>
+
+  <div id="eye_prev"></div>
+  <div id="eye_next"></div>
+
+  <div id="nose_prev"></div>
+  <div id="nose_next"></div>
+
+  <div id="mouth_prev"></div>
+  <div id="mouth_next"></div>
+
+  <div id="top_prev"></div>
+  <div id="top_next"></div>
+
+  <div id="pants_prev"></div>
+  <div id="pants_next"></div>
+
+  <div id="foot_prev"></div>
+  <div id="foot_next"></div>
+
+  <div id="armac_prev"></div>
+  <div id="armac_next"></div>
+
+	<script type="text/javascript">
+		window.onload = function() {
+			var socket = io();
+
+    	  	var slides_hear;
+      		var hear_prev;
+
+			$('#haer_prev').click(function(){
+    			socket.emit('move', 'hear_prev');
+ 			 });
+
+</script>
+
+</body>
+</html>

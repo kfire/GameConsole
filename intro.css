@@ -1,0 +1,10 @@
+#video {
+	top : 0px;
+	left: 0px;
+	width :1920px;
+	position: absolute;
+}
+
+body {
+	background-color: black;
+}

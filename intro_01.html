@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="description" content="SlidesJS is a simple slideshow plugin for jQuery. Packed with a useful set of features to help novice and advanced developers alike create elegant and user-friendly slideshows.">
+  <meta name="author" content="Nathan Searles">
+  <meta name="viewport" content="width=device-width">
+  <link type="text/css" rel="stylesheet" href="intro_01.css"/>
+  <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/slidesjs/3.0/jquery.slides.min.js"></script>
+  <script src="intro_01.js"></script>
+  
+  <script src="/socket.io/socket.io.js"></script>
+
+  <title>momot</title>
+</head>
+<body style="overflow-x:hidden; overflow-y:hidden;">
+  <div class="tee">
+    <div id="mask"/>
+      <img src="./img/mask.png"/>
+    </div>
+    <div id="slides_eyeb">
+      <img src="./img/eyeb_01.png"/>
+      <img src="./img/eyeb_02.png"/>
+      <img src="./img/eyeb_03.png"/>
+      <img src="./img/eyeb_04.png"/>
+      <img src="./img/eyeb_05.png"/>
+      <img src="./img/eyeb_06.png"/>
+      <img src="./img/eyeb_07.png"/>
+      <img src="./img/eyeb_08.png"/>
+      <img src="./img/eyeb_09.png"/>
+      <img src="./img/eyeb_10.png"/>
+      <img src="./img/eyeb_11.png"/>
+      <img src="./img/eyeb_12.png"/>
+      <img src="./img/eyeb_13.png"/>
+      <img src="./img/eyeb_14.png"/>
+      <img src="./img/eyeb_15.png"/>
+      <img src="./img/eyeb_16.png"/>                 
+    </div>
+    <div id="slides_01">
+      <img src="./img/eye_01.gif"/>
+      <img src="./img/eye_02.png"/>
+      <img src="./img/eye_03.png"/>
+      <img src="./img/eye_04.png"/>
+      <img src="./img/eye_05.png"/>
+      <img src="./img/eye_06.png"/>
+      <img src="./img/eye_07.png"/>
+      <img src="./img/eye_08.png"/>
+      <img src="./img/eye_09.png"/>
+      <img src="./img/eye_10.png"/>
+      <img src="./img/eye_11.png"/>
+      <img src="./img/eye_12.png"/>
+      <img src="./img/eye_13.png"/>
+      <img src="./img/eye_14.png"/>
+    </div>
+    <div id="slides_nose">
+      <img src="./img/nose_01.png"/>
+      <img src="./img/nose_02.png"/>
+      <img src="./img/nose_03.png"/>
+      <img src="./img/nose_04.png"/>
+      <img src="./img/nose_05.png"/>
+      <img src="./img/nose_06.png"/>
+      <img src="./img/nose_07.png"/>
+      <img src="./img/nose_08.png"/>
+      <img src="./img/nose_09.png"/>
+      <img src="./img/nose_10.png"/>
+      <img src="./img/nose_11.png"/>
+      <img src="./img/nose_12.png"/>
+    </div>
+    <div id="slides_mouth">
+      <img src="./img/mouth_01.png"/>
+      <img src="./img/mouth_02.png"/>
+      <img src="./img/mouth_03.png"/>
+      <img src="./img/mouth_04.png"/>
+      <img src="./img/mouth_05.png"/>
+      <img src="./img/mouth_06.png"/>
+      <img src="./img/mouth_07.png"/>
+      <img src="./img/mouth_08.png"/>
+      <img src="./img/mouth_09.png"/>
+      <img src="./img/mouth_10.png"/>
+      <img src="./img/mouth_11.png"/>
+      <img src="./img/mouth_12.png"/>
+      <img src="./img/mouth_13.png"/>
+      <img src="./img/mouth_14.png"/>
+    </div>
+    <div id="slides_hair">
+      <img src="./img/hair_01.png"/>
+      <img src="./img/hair_02.png"/>
+      <img src="./img/hair_03.png"/>
+      <img src="./img/hair_04.png"/>
+      <img src="./img/hair_05.png"/>
+      <img src="./img/hair_06.png"/>
+      <img src="./img/hair_07.png"/>
+      <img src="./img/hair_08.png"/>
+      <img src="./img/hair_09.png"/>
+      <img src="./img/hair_10.png"/>
+      <img src="./img/hair_11.png"/>
+      <img src="./img/hair_12.png"/>
+      <img src="./img/hair_13.png"/>
+      <img src="./img/hair_14.png"/>
+      <img src="./img/hair_15.png"/>
+      <img src="./img/hair_16.png"/>
+      <img src="./img/hair_17.png"/>
+      <img src="./img/hair_18.png"/>
+      <img src="./img/hair_19.png"/>
+      <img src="./img/hair_20.png"/>                          
+    </div>
+    <div id="slides">
+      <img src="./img/tee_01.png"/>
+      <img src="./img/tee_02.png"/>
+      <img src="./img/tee_03.png"/>
+      <img src="./img/tee_04.png"/>
+      <img src="./img/tee_05.png"/>
+      <img src="./img/tee_06.png"/>
+      <img src="./img/tee_07.png"/>
+      <img src="./img/tee_08.png"/>
+      <img src="./img/tee_09.png"/>
+      <img src="./img/tee_10.png"/>
+    </div>
+    <div id="slides_03">
+      <img src="./img/pants_01.png"/>
+      <img src="./img/pants_02.png"/>   
+      <img src="./img/pants_03.png"/>  
+      <img src="./img/pants_04.png"/>  
+      <img src="./img/pants_05.png"/>  
+      <img src="./img/pants_06.png"/>  
+      <img src="./img/pants_07.png"/>  
+      <img src="./img/pants_08.png"/>  
+      <img src="./img/pants_09.png"/>
+      <img src="./img/pants_10.png"/>  
+      <img src="./img/pants_11.png"/>  
+      <img src="./img/pants_12.png"/>  
+      <img src="./img/pants_13.png"/>
+      <img src="./img/pants_14.png"/>                                                      
+    </div>
+    <div id="slides_02">
+      <img src="./img/foot_ac_01.png"/>
+      <img src="./img/foot_ac_02.png"/>
+      <img src="./img/foot_ac_03.png"/>
+      <img src="./img/foot_ac_04.png"/>
+      <img src="./img/foot_ac_05.png"/>
+      <img src="./img/foot_ac_06.png"/>
+      <img src="./img/foot_ac_07.png"/>
+      <img src="./img/foot_ac_08.png"/>
+      <img src="./img/foot_ac_09.png"/>                  
+    </div>
+    <div id="slides_armac">
+      <img src="./img/arm_ac_01.png"/>
+      <img src="./img/arm_ac_02.png"/>
+      <img src="./img/arm_ac_03.png"/>
+      <img src="./img/arm_ac_04.png"/>
+      <img src="./img/arm_ac_05.png"/>          
+    </div>
+  </div> 
+
+
+  <div id="hair_prev"></div>
+  <div id="hair_next"></div>
+
+  <div id="eyeb_prev"></div>
+  <div id="eyeb_next"></div>
+
+  <div id="eye_prev"></div>
+  <div id="eye_next"></div>
+
+  <div id="nose_prev"></div>
+  <div id="nose_next"></div>
+
+  <div id="mouth_prev"></div>
+  <div id="mouth_next"></div>
+
+  <div id="top_prev"></div>
+  <div id="top_next"></div>
+
+  <div id="pants_prev"></div>
+  <div id="pants_next"></div>
+
+  <div id="foot_prev"></div>
+  <div id="foot_next"></div>
+
+  <div id="armac_prev"></div>
+  <div id="armac_next"></div>
+
+  <script type="text/javascript">
+    window.onload = function() {
+      var socket = io();
+
+      var slides_hear;
+      var hear_prev;
+
+      socket.on('move', function(msg){
+        io.emit('move', msg);
+      });
+
+
+      socket.on('move', function(msg){
+       console.log('move: ' + msg);
+       if (msg === 'hear_prev') 
+       {
+         $('#slides_hear .slidesjs-previous').click();
+       }
+      });
+
+
+
+
+</script>
+
+
+</body>
+</html>
+
