@@ -44,12 +44,79 @@
 		window.onload = function() {
 			var socket = io();
 
-    	  	var slides_hair;
-      		var hair_prev;
-
 			$('#hair_prev').click(function(){
     			socket.emit('move', 'hair_prev');
  			 });
+
+      $('#hair_next').click(function(){
+          socket.emit('move', 'hair_next');
+       });
+
+      $('#eyeb_prev').click(function(){
+          socket.emit('move', 'eyeb_prev');
+       });
+
+      $('#eyeb_next').click(function(){
+          socket.emit('move', 'eyeb_next');
+       });
+
+      $('#eye_prev').click(function(){
+          socket.emit('move', 'eye_prev');
+       });
+
+      $('#eye_next').click(function(){
+          socket.emit('move', 'eye_next');
+       });
+
+      $('#nose_prev').click(function(){
+          socket.emit('move', 'nose_prev');
+       });
+
+      $('#nose_next').click(function(){
+          socket.emit('move', 'nose_next');
+       });
+
+      $('#mouth_prev').click(function(){
+          socket.emit('move', 'mouth_prev');
+       });
+
+      $('#mouth_next').click(function(){
+          socket.emit('move', 'mouth_next');
+       });
+
+      $('#top_prev').click(function(){
+          socket.emit('move', 'top_prev');
+       });
+
+      $('#top_next').click(function(){
+          socket.emit('move', 'top_next');
+       });
+
+      $('#pants_prev').click(function(){
+          socket.emit('move', 'pants_prev');
+       });
+
+      $('#pants_next').click(function(){
+          socket.emit('move', 'pants_next');
+       });
+
+      $('#foot_prev').click(function(){
+          socket.emit('move', 'foot_prev');
+       });
+
+      $('#foot_next').click(function(){
+          socket.emit('move', 'foot_next');
+       });
+
+      $('#armac_prev').click(function(){
+          socket.emit('move', 'armac_prev');
+       });
+
+      $('#armac_next').click(function(){
+          socket.emit('move', 'armac_next');
+       });
+
+
       }
 </script>
 

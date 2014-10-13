@@ -156,13 +156,6 @@
     window.onload = function() {
       var socket = io();
 
-      var slides_hair;
-      var hair_prev;
-
-      socket.on('move', function(msg){
-        io.emit('move', msg);
-      });
-
       socket.on('move', function(msg){
        console.log('move: ' + msg);
        if (msg === 'hair_prev') 
@@ -170,6 +163,143 @@
          $('#slides_hair .slidesjs-previous').click();
        }
       });
+
+      socket.on('move', function(msg){
+       console.log('move: ' + msg);
+       if (msg === 'hair_next') 
+       {
+         $('#slides_hair .slidesjs-next').click();
+       }
+      });
+
+      socket.on('move', function(msg){
+       console.log('move: ' + msg);
+       if (msg === 'eyeb_prev') 
+       {
+         $('#slides_eyeb .slidesjs-previous').click();
+       }
+      });
+
+      socket.on('move', function(msg){
+       console.log('move: ' + msg);
+       if (msg === 'eyeb_next') 
+       {
+         $('#slides_eyeb .slidesjs-next').click();
+       }
+      });
+
+      socket.on('move', function(msg){
+       console.log('move: ' + msg);
+       if (msg === 'eye_prev') 
+       {
+         $('#slides_01 .slidesjs-previous').click();
+       }
+      });
+
+      socket.on('move', function(msg){
+       console.log('move: ' + msg);
+       if (msg === 'eye_next') 
+       {
+         $('#slides_01 .slidesjs-next').click();
+       }
+      });
+
+      socket.on('move', function(msg){
+       console.log('move: ' + msg);
+       if (msg === 'nose_prev') 
+       {
+         $('#slides_nose .slidesjs-previous').click();
+       }
+      });
+
+      socket.on('move', function(msg){
+       console.log('move: ' + msg);
+       if (msg === 'nose_next') 
+       {
+         $('#slides_nose .slidesjs-next').click();
+       }
+      });
+
+      socket.on('move', function(msg){
+       console.log('move: ' + msg);
+       if (msg === 'mouth_prev') 
+       {
+         $('#slides_mouth .slidesjs-previous').click();
+       }
+      });
+
+      socket.on('move', function(msg){
+       console.log('move: ' + msg);
+       if (msg === 'mouth_next') 
+       {
+         $('#slides_mouth .slidesjs-next').click();
+       }
+      });
+
+      socket.on('move', function(msg){
+       console.log('move: ' + msg);
+       if (msg === 'top_prev') 
+       {
+         $('#slides .slidesjs-previous').click();
+       }
+      });
+
+      socket.on('move', function(msg){
+       console.log('move: ' + msg);
+       if (msg === 'top_next') 
+       {
+         $('#slides .slidesjs-next').click();
+       }
+      });
+
+      socket.on('move', function(msg){
+       console.log('move: ' + msg);
+       if (msg === 'pants_prev') 
+       {
+         $('#slides_03 .slidesjs-previous').click();
+       }
+      });
+
+      socket.on('move', function(msg){
+       console.log('move: ' + msg);
+       if (msg === 'pants_next') 
+       {
+         $('#slides_03 .slidesjs-next').click();
+       }
+      });
+
+      socket.on('move', function(msg){
+       console.log('move: ' + msg);
+       if (msg === 'foot_prev') 
+       {
+         $('#slides_02 .slidesjs-previous').click();
+       }
+      });
+
+      socket.on('move', function(msg){
+       console.log('move: ' + msg);
+       if (msg === 'foot_next') 
+       {
+         $('#slides_02 .slidesjs-next').click();
+       }
+      });
+
+      socket.on('move', function(msg){
+       console.log('move: ' + msg);
+       if (msg === 'armac_prev') 
+       {
+         $('#slides_armac .slidesjs-previous').click();
+       }
+      });
+
+      socket.on('move', function(msg){
+       console.log('move: ' + msg);
+       if (msg === 'armac_next') 
+       {
+         $('#slides_armac .slidesjs-next').click();
+       }
+      });
+
     }
 </script>
 
