@@ -116,6 +116,10 @@ $(function() {
     $('#slides_mouth .slidesjs-next').click()
   })
 
+  $('#done').click(function() { 
+    window.location="control_02.html";
+  });
+
 });
 
 //opacity: 0.0;

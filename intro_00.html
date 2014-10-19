@@ -1,0 +1,31 @@
+<html>
+	<head>
+		<link type="text/css" rel="stylesheet" href="intro.css"/>
+		<script src="lib/jquery-2.0.0.min.js"></script>
+		<script src="lib/jquery.hammer.min.js"></script>
+		<script src="intro_00.js"></script>
+		<link type="text/css" rel="stylesheet" href="intro_00.css"/>
+		<title>intro</title>
+	</head>
+	<body style="overflow-x:hidden; overflow-y:hidden;">
+	<a id = "go_momot" href = "intro_01.html"></a>
+ 
+  <script type="text/javascript">
+    window.onload = function() {
+      var socket = io();
+
+      socket.on('click', function(msg){
+       console.log('click: ' + msg);
+       if (msg === 'game') 
+       {
+         $('#game .#go_momot').click();
+       }
+      });
+    }
+
+</script>
+
+
+	</body>
+</html>
+

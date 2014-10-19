@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+		<title>momot</title>
+		<link rel=StyleSheet href="control_03.css" type="text/css">
+		<script src="lib/jquery-2.0.0.min.js"></script>
+		<script src="lib/jquery.hammer.min.js"></script>
+		<script src="src/script.js"></script>
+		<script src="control_03.js"></script>
+	</head>
+	<body>
+		<div class="bg">
+				<div id ="game"></div>
+				
+	<script type="text/javascript">
+		window.onload = function() {
+			var socket = io();
+
+			$('#game').click(function(){
+    			socket.emit('next_page', 'game');
+ 			 });
+      }
+</script>
+		</div>
+	</body>
+</html>

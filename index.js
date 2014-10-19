@@ -11,10 +11,17 @@ io.on('connection', function(socket){
 	socket.on('disconnect', function(){
 		console.log('user disconnected');
 	});
+
 	socket.on('move', function(msg){
 		console.log('move: ' + msg);
 		io.emit('move',msg);
 	});
+
+	socket.on('click', function(msg){
+		console.log('click: ' + msg);
+		io.emit('click',msg);
+	});
+
 });
 
 

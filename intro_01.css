@@ -12,6 +12,10 @@ a{
 	display: none;
 }
 
+audio{
+	controls : false;
+}
+
 #mask{
 	position: absolute;
 	left: 0px;
@@ -30,17 +34,11 @@ a{
 	display: none;
 	width: 658px;
 	height: 500px;	
-	left: 630px;
-	top: 291px;
+	left: 628px;
+	top: 289px;
 
 }
 
-/*#slides a.slidesjs-previous {
-}
-#slides a.slidesjs-previous {
-	left:100px;
-}
-*/
 #slides_eyeb {
 	position: absolute;
 	display: none;
@@ -105,7 +103,7 @@ a{
 	width: 416px;
 	height: 659px;
 	left: 756px;
-	top: 335px;	
+	top: 342px;	
 
 	z-index: 10;
 }

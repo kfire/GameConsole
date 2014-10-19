@@ -1,6 +1,12 @@
 body{
-	background:black;
+	background-color: white;
 	margin: 0;
+}
+
+div {
+	overflow:hidden;
+	position:absolute;
+	background-size:cover;
 }
 
 ul{
@@ -11,13 +17,16 @@ a{
 	display: none;
 }
 
-
+.bg{
+	width:100%;
+	height:100%;
+	background-image: url("./m_img/mobile_bg_01.jpg");
+	}
 
 #hair_prev {
-	position: absolute;
-	width: 50px;
-	height: 50px;
-	background: red;
+	width: 27%;
+	height: 10%;
+	background-image: url("./m_img/prev.png");
 	top: 0px;
 	left: 0px;
 	z-index: 30;
@@ -25,170 +34,170 @@ a{
 
 #hair_next {
 	position: absolute;
-	width: 50px;
-	height: 50px;
-	background: blue;
-	top: 0px;
-	left: 50px;
+	width: 27%;
+	height: 10%;
+	background-image: url("./m_img/next.png");
+	top: 0%;
+	left: 63%;
 	z-index: 30;
 }
 
 #eyeb_prev {
-	position: absolute;
-	width: 50px;
-	height: 50px;
-	background: red;
-	top: 100px;
-	left: 0px;
+	width: 27%;
+	height: 10%;
+	background-image: url("./m_img/prev.png");
+	top: 10%;
+	left: 0%;
 	z-index: 30;
 }
 
 #eyeb_next {
 	position: absolute;
-	width: 50px;
-	height: 50px;
-	background: blue;
-	top: 100px;
-	left: 50px;
+	width: 27%;
+	height: 10%;
+	background-image: url("./m_img/next.png");
+	top: 10%;
+	left: 63%;
 	z-index: 30;
 }
 
 #eye_prev {
-	position: absolute;
-	width: 50px;
-	height: 50px;
-	background: red;
-	top: 200px;
-	left: 0px;
+	width: 27%;
+	height: 10%;
+	background-image: url("./m_img/prev.png");
+	top: 20%;
+	left: 0%;
 	z-index: 30;
 }
 
 #eye_next {
 	position: absolute;
-	width: 50px;
-	height: 50px;
-	background: blue;
-	top: 200px;
-	left: 50px;
+	width: 27%;
+	height: 10%;
+	background-image: url("./m_img/next.png");
+	top: 20%;
+	left: 63%;
 	z-index: 30;
 }
 
 #nose_prev {
-	position: absolute;
-	width: 50px;
-	height: 50px;
-	background: red;
-	top: 300px;
-	left: 0px;
+	width: 27%;
+	height: 10%;
+	background-image: url("./m_img/prev.png");
+	top: 30%;
+	left: 0%;
 	z-index: 30;
 }
 
 #nose_next {
 	position: absolute;
-	width: 50px;
-	height: 50px;
-	background: blue;
-	top: 300px;
-	left: 50px;
+	width: 27%;
+	height: 10%;
+	background-image: url("./m_img/next.png");
+	top: 30%;
+	left: 63%;
 	z-index: 30;
 }
 
 #mouth_prev {
-	position: absolute;
-	width: 50px;
-	height: 50px;
-	background: red;
-	top: 400px;
-	left: 0px;
+	width: 27%;
+	height: 10%;
+	background-image: url("./m_img/prev.png");
+	top: 40%;
+	left: 0%;
 	z-index: 30;
 }
 
 #mouth_next {
 	position: absolute;
-	width: 50px;
-	height: 50px;
-	background: blue;
-	top: 400px;
-	left: 50px;
+	width: 27%;
+	height: 10%;
+	background-image: url("./m_img/next.png");
+	top: 40%;
+	left: 63%;
 	z-index: 30;
 }
 
 #top_prev {
-	position: absolute;
-	width: 50px;
-	height: 50px;
-	background: red;
-	top: 500px;
-	left: 0px;
+	width: 27%;
+	height: 10%;
+	background-image: url("./m_img/prev.png");
+	top: 50%;
+	left: 0%;
 	z-index: 30;
 }
 
 #top_next {
 	position: absolute;
-	width: 50px;
-	height: 50px;
-	background: blue;
-	top: 500px;
-	left: 50px;
+	width: 27%;
+	height: 10%;
+	background-image: url("./m_img/next.png");
+	top: 50%;
+	left: 63%;
 	z-index: 30;
 }
 
 #pants_prev {
-	position: absolute;
-	width: 50px;
-	height: 50px;
-	background: red;
-	top: 600px;
-	left: 0px;
+	width: 27%;
+	height: 10%;
+	background-image: url("./m_img/prev.png");
+	top: 60%;
+	left: 0%;
 	z-index: 30;
 }
 
 #pants_next {
 	position: absolute;
-	width: 50px;
-	height: 50px;
-	background: blue;
-	top: 600px;
-	left: 50px;
+	width: 27%;
+	height: 10%;
+	background-image: url("./m_img/next.png");
+	top: 60%;
+	left: 63%;
 	z-index: 30;
 }
 
 #foot_prev {
-	position: absolute;
-	width: 50px;
-	height: 50px;
-	background: red;
-	top: 700px;
-	left: 0px;
+	width: 27%;
+	height: 10%;
+	background-image: url("./m_img/prev.png");
+	top: 70%;
+	left: 0%;
 	z-index: 30;
 }
 
 #foot_next {
 	position: absolute;
-	width: 50px;
-	height: 50px;
-	background: blue;
-	top: 700px;
-	left: 50px;
+	width: 27%;
+	height: 10%;
+	background-image: url("./m_img/next.png");
+	top: 70%;
+	left: 63%;
 	z-index: 30;
 }
 
 #armac_prev {
-	position: absolute;
-	width: 50px;
-	height: 50px;
-	background: red;
-	top: 800px;
-	left: 0px;
+	width: 27%;
+	height: 10%;
+	background-image: url("./m_img/prev.png");
+	top: 80%;
+	left: 0%;
 	z-index: 30;
 }
 
 #armac_next {
-	position: absolute;
-	width: 50px;
-	height: 50px;
-	background: blue;
-	top: 800px;
-	left: 50px;
+	width: 27%;
+	height: 10%;
+	background-image: url("./m_img/next.png");
+	top: 80%;
+	left: 63%;
 	z-index: 30;
+}
+
+#done{
+	width: 100%;
+	height: 10%;
+	background-image: url("./m_img/done.png");
+	top: 90%;
+	left: 0%;
+
 }
