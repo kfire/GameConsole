@@ -7,14 +7,25 @@
 		<link rel=StyleSheet href="control_02.css" type="text/css">
 		<script src="lib/jquery-2.0.0.min.js"></script>
 		<script src="lib/jquery.hammer.min.js"></script>
-		<script src="src/script.js"></script>
 		<script src="control_02.js"></script>
+		<script src="/socket.io/socket.io.js"></script>
 	</head>
 	<body>
 		<div class="bg">
 				<div id ="opening"></div>
 				<div id ="game"></div>
-			</a>
 		</div>
+
+		<script type="text/javascript">
+		window.onload = function() {
+			var socket = io();
+			
+			$('#opening').click(function() { 
+    			socket.emit('click', 'opening');
+			});
+      }
+</script>
+
+
 	</body>
 </html>

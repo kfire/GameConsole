@@ -330,6 +330,14 @@
        }
       });
 
+      socket.on('click', function(msg){
+       console.log('click: ' + msg);
+       if (msg === 'opening') 
+       {
+        window.location="intro.html";
+       }
+      });
+
     }
 </script>
 
