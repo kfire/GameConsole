@@ -18,9 +18,10 @@
 		window.onload = function() {
 			var socket = io();
 
-			$('#game').click(function(){
-    			socket.emit('next_page', 'game');
- 			 });
+			$('#game').click(function() { 
+    			socket.emit('click', 'game');
+    			window.location="control_01.html";
+			});
       }
 </script>
 		</div>
