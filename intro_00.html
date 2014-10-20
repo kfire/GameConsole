@@ -8,7 +8,6 @@
 		<title>intro</title>
 	</head>
 	<body style="overflow-x:hidden; overflow-y:hidden;">
-	<a id = "go_momot" href = "intro_01.html"></a>
  
   <script type="text/javascript">
     window.onload = function() {
@@ -16,9 +15,10 @@
 
       socket.on('click', function(msg){
        console.log('click: ' + msg);
-       if (msg === 'game') 
+       if (msg === 'next_page') 
        {
-         $('#game .#go_momot').click();
+   		$('#game').click(function() { 
+    		window.location="intro_01.html";
        }
       });
     }
